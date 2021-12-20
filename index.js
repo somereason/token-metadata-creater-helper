@@ -21,8 +21,8 @@ async function main() {
         const finalHash = getHash(content2Hash);
 
         const siged = sign(finalHash);
-        console.log("Target: ",item.signatures[0].signature);
-        console.log("Signed: ",siged.signature);
+        console.log("Target: ", item.signatures[0].signature);
+        console.log("Signed: ", siged.signature);
         console.log("")
     }
 }
@@ -33,7 +33,7 @@ function cborAndHash(content) {
 }
 function getHash(content) {
     const h = blake2.createHash("blake2b", { digestLength: 32 });
-    h.update(Buffer.from(content));
+    h.update(Buffer.from(content, "hex"));
     return h.digest("hex")
 }
 function sign(content) {
