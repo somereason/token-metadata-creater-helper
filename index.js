@@ -20,8 +20,10 @@ async function main() {
         const content2Hash = subjectHash + propertyNameHash + propertyValueHash + sequenceNumberHash;
         const finalHash = getHash(content2Hash);
 
-        const siged = sign(content2Hash);
-        console.log(siged);
+        const siged = sign(finalHash);
+        console.log("Target: ",item.signatures[0].signature);
+        console.log("Signed: ",siged.signature);
+        console.log("")
     }
 }
 
