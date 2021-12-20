@@ -1,0 +1,34 @@
+{
+    "subject": "be692739518128b32ad970206ea85994c2692c6e7c5c3f106c4fb6b3434854",
+    "name": {
+        "sequenceNumber": 0,
+        "value": "CHT",
+        "signatures": [
+            {
+                "signature": "6fac704c5c925d9986b5a68fc46341a949dfa7eb5fbb16bbb2931b0f0cef98f2237962aeff29ae34f315445b56fccbc782a94f17782c9193639b9e2ae4f86d0c",
+                "publicKey": "d4b4107d125cf45d2fae15d5d3d1eeee4613990f4a9a385878ae2903e8704f9f"
+            }
+        ]
+    },
+    "decimals": {
+        "sequenceNumber": 0,
+        "value": 8,
+        "signatures": [
+            {
+                "signature": "4826dc86fc4fba5796cb9eb85c6cc9e15244043a09cf81d5855655b69c36b413a1a4e013a3f6653b17365ac63e189711ebb8a691eb224341b1f4f0d84d3b5205",
+                "publicKey": "d4b4107d125cf45d2fae15d5d3d1eeee4613990f4a9a385878ae2903e8704f9f"
+            }
+        ]
+    },
+    "policy": "82008201828200581c79f5784c7caee44da4007b89dea379edccba1352a456fff72b5a19e58200581cd55729aed2e29c37c6c39610919bf2c7a58ec7dc5bf9530e66d38719",
+    "description": {
+        "sequenceNumber": 0,
+        "value": "ht on cardano",
+        "signatures": [
+            {
+                "signature": "94c05214ae1dc0ab473ba21551077a567eb1cb846464676ba5a20e2a32004cd1cde4c511f243c3ee56149b6bccc4481dca13b5de29c0824992f3c2b16f65ef02",
+                "publicKey": "d4b4107d125cf45d2fae15d5d3d1eeee4613990f4a9a385878ae2903e8704f9f"
+            }
+        ]
+    }
+}
