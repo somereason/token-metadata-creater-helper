@@ -15,7 +15,7 @@ async function main() {
             continue;
         const item = data[itemKey];
         const propertyNameHash = cborAndHash(itemKey);
-        const propertyValueHash = cborAndHash(item.value);
+        const propertyValueHash = cborAndHash(itemKey == 'logo' ? Buffer.from(item.value, 'base64') : item.value);
         const sequenceNumberHash = cborAndHash(item.sequenceNumber);
         const content2Hash = subjectHash + propertyNameHash + propertyValueHash + sequenceNumberHash;
         const finalHash = getHash(content2Hash);
